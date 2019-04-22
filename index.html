@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+            body, html {
+              height: 100%;
+              background-color: silver;
+              padding: 0;
+              margin: 0;
+            }
+            
+            .parallax {
+              /* The image used */
+              background-image: url('1.jpg');
+            
+              /* Full height */
+              height: 100%; 
+            
+              /* Create the parallax scrolling effect */
+              background-attachment: fixed;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+            
+            /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+            @media only screen and (max-device-width: 1366px) {
+              .parallax {
+                background-attachment: scroll;
+              }
+            }
+            .header {
+                height: 100px;
+                background-color: white;
+                display: flex;
+            }
+            .link {
+                height: 100px;
+                width: 300px;
+            }
+            </style>
+    <title>Ubisoft</title>
+</head>
+<body>
+    <div id="container">
+        <div class="header">
+            <div class="menu-item">Home</div>
+            <div>About me</div>
+            <div>Contacts</div>
+        </div>
+        <div class="content">
+            <div class="link">
+                <a href="./Laba1.exe">Download link</a>
+            </div>
+        </div>
+    </div>
+
+        <!-- <div id="root"></div>
+
+        <div id="mocha"></div> -->
+        <!-- <div class="parallax"></div>
+        
+        <div style="height:600px;font-size:36px">
+            If you want to get this game free. Just click in this button
+        </div>
+        
+        <div class="parallax"></div>
+        <div style="height:100px;font-size:25px">
+            @
+        </div> -->
+    <!-- <div id="container">
+        <h1>Welcome to microsoft site</h1>
+        <h2>This is site for free </h2>
+        
+        <a href="./lesson2.pdf">Download</a>
+    </div> -->
+    <!-- <script async src="./index.js"></script>
+    <script async src="./index2.js"></script> -->
+    
+</body>
+</html>
